@@ -323,28 +323,33 @@ padding: 120px 0
 .portfolio .second-title{
     margin-bottom: 72px;
     text-align: center;
-    width: 1128px;
+    width: 1158px;
 }
-.portfolio img{
-    margin-bottom: 32px;
-}
-.portfolio .third-title{
-    margin-bottom: 8px;
-}
-.portfolio li{
+
+
+.portfolio li {
     width: 360px;
     height: 420px;
-    border-bottom: 1px #E7E9FC solid;
+    
 }
 
 .portfolio ul{
-    width: 1128px;
+    width: 1158px;
     height: 1000px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
 }
 
+.portfolio-item{
+    padding: 32px 16px;
+    border-top: none;
+    border: 1px solid #e7e9fc;
+
+}
+.p-title{
+    margin-bottom: 8px
+}
 
 /*Footer*/
 
