@@ -271,6 +271,7 @@ padding: 120px 0
  
 
 /*Team*/
+
 .our-team{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -280,23 +281,46 @@ padding: 120px 0
     text-align: center;
     width: 1128px;
 }
-.our-team .team-list img{
-    margin-bottom: 32px;
-}
+
 .our-team .team-list .third-title{
     margin-bottom: 8px;
 }
 .team-list{
     width: 264px;
-    height: 380px;
-    border-radius: 16px;
+    max-height: 380px;
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08);
     box-shadow: 0 1px 1px rgba(46, 47, 66, 0.16);
 }
-.our-team ul{
+.our-team-list{
     display: flex;
     gap: 24px;
 }
+.item-a, .item-b,
+.item-c, .item-d{
+    border-radius: 0px 0px 4px 4px;
+}
+
+.worker-a,
+.worker-b,
+.worker-c,
+worker-d{
+    padding: 32px 0;
+}
+.daniel-photo{
+    margin-bottom: 32px;
+}
+
+.title-a, .title-b,
+.title-c, .title-d{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.descrip-a, .descrip-b,
+.descrip-c, .descrip-d{
+    text-align: center;
+}
+
 
 /*Portfolio*/
 .portfolio{
