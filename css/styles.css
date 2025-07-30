@@ -295,29 +295,21 @@ padding: 120px 0
     display: flex;
     gap: 24px;
 }
-.item-a, .item-b,
-.item-c, .item-d{
+.item{
     border-radius: 0px 0px 4px 4px;
 }
 
-.worker-a,
-.worker-b,
-.worker-c,
-worker-d{
+.worker{
     padding: 32px 0;
 }
-.daniel-photo{
-    margin-bottom: 32px;
-}
 
-.title-a, .title-b,
-.title-c, .title-d{
+
+.title{
     text-align: center;
     margin-bottom: 8px;
 }
 
-.descrip-a, .descrip-b,
-.descrip-c, .descrip-d{
+.descrip{
     text-align: center;
 }
 
