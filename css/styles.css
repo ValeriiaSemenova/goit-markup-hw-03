@@ -346,8 +346,26 @@ padding: 120px 0
 
 }
 
-.title-a, .title-b, .title-c,
-.title-d, .title-e, .title-f{
+.title-a{
+        margin-bottom: 8px;
+    }
+.title-b{
+        margin-bottom: 8px;
+    }
+
+.title-c{
+        margin-bottom: 8px;
+    }
+
+.title-d{
+        margin-bottom: 8px;
+    }
+
+.title-e{
+        margin-bottom: 8px;
+    }
+
+.title-f{
     margin-bottom: 8px;
 }
 
