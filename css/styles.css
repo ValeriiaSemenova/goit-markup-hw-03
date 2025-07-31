@@ -346,7 +346,8 @@ padding: 120px 0
 
 }
 
-.p-title{
+.title-a, .title-b, .title-c,
+.title-d, .title-e, .title-f{
     margin-bottom: 8px;
 }
 
