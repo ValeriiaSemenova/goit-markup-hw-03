@@ -328,7 +328,7 @@ padding: 120px 0
 
 
 .portfolio li {
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     height: 420px;
     
 }
