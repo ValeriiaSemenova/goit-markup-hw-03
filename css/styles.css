@@ -26,6 +26,8 @@ body{
     line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
+    margin: 48px auto;
+    max-width: 496px;
 }
 .second-title{
 font-weight: 500;
@@ -35,6 +37,8 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
+    margin-bottom: 72px;
+        text-align: center;
 }
 .third-title{
 font-weight: 500;
@@ -42,6 +46,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+        margin-bottom: 8px;
 }
 .description{
 font-weight: 400;
@@ -52,6 +57,7 @@ color: #434455;
 }
 .hero{
 background-color: #2E2F42;
+padding: 188px 0;
 }
 .our-team{
 background-color: #F4F4FD;
@@ -62,6 +68,8 @@ background-color: #F4F4FD;
    background-color: #2E2F42;
 }
 .logo-footer{
+    margin-bottom: 16px;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -79,6 +87,7 @@ background-color: #F4F4FD;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        width: 264px;
 }
 .team-list{
     background-color: #FFFFFF;
@@ -93,6 +102,12 @@ background-color: #F4F4FD;
     cursor: pointer;
     color: #ffffff;
     background-color: #4D5AE5;
+    display: block;
+ height: 56px;
+ min-width: 169px;
+border: none;
+ border-radius: 4px;
+ margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -203,34 +218,6 @@ img{
 
 
 
-
-
-
-/* Hero */
-.hero{
-    padding: 188px 0;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero .main-title{
-    margin-bottom: 48px;
-    max-width: 496px;
-}
-
-.hero-button{
-    display: block;
-    height: 56px;
-    min-width: 169px;
-    border: none;
-    border-radius: 4px;
-}
-
-
-
 /*Benefits*/
 .title-benefits{
     position: absolute;
@@ -252,22 +239,11 @@ padding: 120px 0
  .benefits ul{
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    width: 1128px;
-    height: 104px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .benefits li{
-    width: 264px;
-    height: 104px;
-    text-align: left;
+    width: calc((100% - 30px) / 4);
 }
-.benefits .third-title{
-    margin-bottom: 8px;
-}
+
  
 
 /*Team*/
@@ -276,37 +252,23 @@ padding: 120px 0
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.our-team .second-title{
-    margin-bottom: 72px;
-    text-align: center;
-    width: 1128px;
-}
 
-.our-team .team-list .third-title{
-    margin-bottom: 8px;
-}
 .team-list{
-    width: 264px;
-    max-height: 380px;
+    width: calc((100% - 30px) / 4);
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08);
     box-shadow: 0 1px 1px rgba(46, 47, 66, 0.16);
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team-list{
     display: flex;
     gap: 24px;
 }
-.item{
-    border-radius: 0px 0px 4px 4px;
-}
 
 .worker{
     padding: 32px 0;
 }
-
-
-.title{
+.our-team .title{
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .descrip{
@@ -320,20 +282,13 @@ padding: 120px 0
     padding-bottom: 120px;
 }
 
-.portfolio .second-title{
-    margin-bottom: 72px;
-    text-align: center;
-    width: 1158px;
-}
-
 
 .portfolio-list-item{
     width: calc((100% - 48px) / 3);
 }
 
 .portfolio ul{
-    width: 1128px;
-    height: 1000px;
+
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -353,13 +308,9 @@ padding: 120px 0
 
 /*Footer*/
 
-.logo-footer{
-    margin-bottom: 16px;
-}
+
 .footer-style{
     padding-bottom: 100px;
     padding-top: 100px;
 }
-.logo-footer{
-    display: inline-block;
-}
+
